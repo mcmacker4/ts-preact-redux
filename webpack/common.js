@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/main.tsx',
     output: {
         path: path.resolve(__dirname, '../dist'),
-        filename: "letroso.js"
+        filename: "[hash].js"
     },
     module: {
         rules: [
