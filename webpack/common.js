@@ -28,7 +28,8 @@ module.exports = {
         alias: {
             'react': 'preact/compat',
             'react-dom': 'preact/compat'
-        }
+        },
+        extensions: ['.tsx', '.ts', '.jsx', '.js', '.json', '*']
     },
     plugins: [
         new HtmlWebpackPlugin()
